@@ -26,15 +26,15 @@ class App extends StatelessWidget {
             ),
             FlatButton(
               child: Text("Flat Button",style: TextStyle(fontSize: 20,),),
-              color: Colors.red,
-              textColor: Colors.white,
+              color: Colors.green,
+              textColor: Colors.red,
               onPressed: (){},
             ),
 
            //Raised Button
             RaisedButton(
               child: Text("Raised Button",style: TextStyle(fontSize: 20),),
-                color: Colors.blue,
+                color: Colors.yellow,
                 splashColor: Colors.green,
                 onPressed: (){}
             ),
